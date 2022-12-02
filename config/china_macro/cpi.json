@@ -1,0 +1,14 @@
+{
+  "do": {
+    "executor": "kettle",
+    "kettle": {
+      "host": "admin:admin@127.0.0.1:8080",
+      "rep": "soquant",
+      "job": "pyspider",
+      "parameters": {
+        "path": "ijob.py",
+        "bdate": "{{bdate}}"
+      }
+    }
+  }
+}
